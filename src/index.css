@@ -1,0 +1,80 @@
+:root{
+  --bg:#f5f7fb;
+  --card:#ffffff;
+  --accent:#4f46e5; /* indigo */
+  --muted:#6b7280;
+}
+
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{
+  margin:0;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background:var(--bg);
+  color:#111827;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.app-wrapper{
+  max-width:900px;
+  margin:28px auto;
+  padding:18px;
+}
+
+.header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:14px;
+}
+
+.brand{
+  display:flex;align-items:center;gap:8px
+}
+.brand h1{margin:0;font-size:1.1rem}
+
+.card{
+  background:var(--card);
+  border-radius:12px;
+  box-shadow:0 6px 20px rgba(15,23,42,0.06);
+  padding:20px;
+}
+
+.question-area{display:flex;flex-direction:column;gap:16px}
+.question-text{font-size:1.05rem}
+
+.options{display:grid;grid-template-columns:1fr;gap:10px}
+.option{
+  padding:12px;border-radius:8px;border:1px solid #e6e9ef;cursor:pointer;user-select:none;
+  background:transparent;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+  text-align:left;
+}
+.option:hover{transform:translateY(-3px); box-shadow:0 6px 18px rgba(15,23,42,0.04);}
+.option:focus{outline:2px solid rgba(99,102,241,0.15); outline-offset:2px}
+
+.option.locked{opacity:0.85;cursor:default}
+.option.correct{border-color: #10b981; background: rgba(16,185,129,0.06);} /* green */
+.option.wrong{border-color:#ef4444;background: rgba(239,68,68,0.06);} /* red */
+
+.controls{display:flex;gap:8px;justify-content:space-between;align-items:center}
+.btn{
+  padding:10px 14px;border-radius:8px;border:0;background:var(--accent);color:white;font-weight:600;cursor:pointer;
+  box-shadow: 0 6px 14px rgba(99,102,241,0.12);
+}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid rgba(79,70,229,0.12)}
+.btn:disabled{opacity:0.5;cursor:not-allowed}
+
+.progress{font-size:0.9rem;color:var(--muted)}
+.footer-actions{display:flex;gap:8px}
+
+.results-list{display:flex;flex-direction:column;gap:10px}
+.result-item{padding:12px;border-radius:8px;border:1px solid #eef2ff}
+.small{font-size:0.9rem;color:var(--muted)}
+
+@media (max-width:600px){
+  .app-wrapper{margin:10px;padding:12px}
+  .btn{padding:8px 12px}
+}

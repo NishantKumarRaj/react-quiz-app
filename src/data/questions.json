@@ -1,0 +1,74 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the capital city of France?",
+      "options": ["Paris", "Berlin", "Madrid", "Rome"],
+      "answer": "Paris",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Mars", "Jupiter", "Saturn", "Venus"],
+      "answer": "Mars",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Who wrote the play 'Romeo and Juliet'?",
+      "options": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
+      "answer": "William Shakespeare",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "question": "Which element has the chemical symbol 'O'?",
+      "options": ["Oxygen", "Gold", "Osmium", "Oganesson"],
+      "answer": "Oxygen",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "What is the largest ocean on Earth?",
+      "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+      "answer": "Pacific Ocean",
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "question": "Which language is primarily used for styling web pages?",
+      "options": ["CSS", "HTML", "JavaScript", "PHP"],
+      "answer": "CSS",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "Which year did the World Wide Web become publicly available?",
+      "options": ["1991", "1985", "2000", "1995"],
+      "answer": "1991",
+      "difficulty": "hard"
+    },
+    {
+      "id": 8,
+      "question": "Which country hosted the 2016 Summer Olympics?",
+      "options": ["Brazil", "China", "UK", "Russia"],
+      "answer": "Brazil",
+      "difficulty": "medium"
+    },
+    {
+      "id": 9,
+      "question": "What does HTTP stand for?",
+      "options": ["HyperText Transfer Protocol", "Hyperlink Transfer Protocol", "HyperText Transmission Procedure", "Hyperlink Transmission Protocol"],
+      "answer": "HyperText Transfer Protocol",
+      "difficulty": "medium"
+    },
+    {
+      "id": 10,
+      "question": "Which mathematician is known for the theory of relativity?",
+      "options": ["Albert Einstein", "Isaac Newton", "Carl Gauss", "Leonhard Euler"],
+      "answer": "Albert Einstein",
+      "difficulty": "hard"
+    }
+  ]
+}
